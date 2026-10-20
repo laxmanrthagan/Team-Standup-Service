@@ -1,0 +1,12 @@
+[
+  { "id": "member-01", "displayName": "Member 01", "role": "member", "active": true },
+  { "id": "member-02", "displayName": "Member 02", "role": "member", "active": true },
+  { "id": "member-03", "displayName": "Member 03", "role": "member", "active": true },
+  { "id": "member-04", "displayName": "Member 04", "role": "member", "active": true },
+  { "id": "member-05", "displayName": "Member 05", "role": "member", "active": true },
+  { "id": "member-06", "displayName": "Member 06", "role": "member", "active": true },
+  { "id": "member-07", "displayName": "Member 07", "role": "member", "active": true },
+  { "id": "member-08", "displayName": "Member 08", "role": "member", "active": true },
+  { "id": "member-09", "displayName": "Member 09", "role": "lead", "active": true },
+  { "id": "member-10", "displayName": "Member 10", "role": "support", "active": true }
+]

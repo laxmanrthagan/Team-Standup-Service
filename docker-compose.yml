@@ -1,0 +1,16 @@
+services:
+  standup:
+    build: .
+    ports:
+      - "127.0.0.1:3000:3000"
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+      DB_PATH: /data/standup.sqlite
+      TEAM_TIME_ZONE: Asia/Kolkata
+    volumes:
+      - standup-data:/data
+    restart: unless-stopped
+
+volumes:
+  standup-data:
